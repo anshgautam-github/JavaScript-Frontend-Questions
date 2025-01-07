@@ -11,9 +11,9 @@ Hide/Show table of contents
 | No. | Questions                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     | **Core JS**                                                                                                                                                                                                                   |
-| 1   | [What is arguments in JavaScript?](#What-is-arguments-in-JavaScript)                                                                                                                                                                               |
-| 2   | [What is the history behind React evolution?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
-| 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
+| 1   | [What is arguments in JavaScript?](#What-is-arguments-in-JavaScript)                                                                                                                                                           |
+| 2   | [What is the role of the Arguments Object in JavaScript Functions?](#What-is-the-role-of-the-Arguments-Object-in-JavaScript-Functions)                                                                                         |
+| 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                 |
 | 4   | [What is JSX?](#what-is-jsx)        
 
 
@@ -52,20 +52,17 @@ Hide/Show table of contents
        ![image](https://github.com/user-attachments/assets/b290c039-002d-4ff2-ae24-24f27d93957c) Output: Sum is :15
 
 
-
-   
-
     **[⬆ Back to Top](#table-of-contents)**
 
-3.  ### What is the history behind React evolution?
+2.  ### What is the role of the Arguments Object in JavaScript Functions?
 
-    The history of ReactJS started in 2010 with the creation of **XHP**. XHP is a PHP extension which improved the syntax of the language such that XML document fragments become valid PHP expressions and the primary purpose was used to create custom and reusable HTML elements.
+      The arguments object provides a way to access these arguments dynamically, even if the function is not defined with specific parameter names.
+      Simply, it lets you access the values passed to a function, even if you didn’t define them as parameters.
+      <br><br>
+      ![image](https://github.com/user-attachments/assets/c55e922d-4f40-4d9e-8fbf-9a584a19c11e)
+      <br><br>
+      Example: Here, the sum() function does not have any declared parameters. Inside the function body, we access the arguments passed to the function using the arguments object. 
 
-    The main principle of this extension was to make front-end code easier to understand and to help avoid cross-site scripting attacks. The project was successful to prevent the malicious content submitted by the scrubbing user.
-
-    But there was a different problem with XHP in which dynamic web applications require many roundtrips to the server, and XHP did not solve this problem. Also, the whole UI was re-rendered for small change in the application. Later, the initial prototype of React is created with the name **FaxJ** by Jordan inspired from XHP. Finally after sometime React has been introduced as a new library into JavaScript world.
-
-    **Note:** JSX comes from the idea of XHP
 
     **[⬆ Back to Top](#table-of-contents)**
 
