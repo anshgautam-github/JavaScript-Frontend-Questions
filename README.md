@@ -11,7 +11,7 @@ Hide/Show table of contents
 | No. | Questions                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     | **Core JS**                                                                                                                                                                                                                   |
-| 1   | [What is arguments in JavaScript ?](#what-is-react)                                                                                                                                                                                                  |
+| 1   | [What is arguments in JavaScript ?](#What-is-arguments-in-JavaScript?)                                                                                                                                                                               |
 | 2   | [What is the history behind React evolution?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
 | 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
 | 4   | [What is JSX?](#what-is-jsx)        
@@ -20,11 +20,14 @@ Hide/Show table of contents
 
 ## Core React
 
-1.  ### What is React?
+1.  ### What is arguments in JavaScript ?
 
-    React (aka React.js or ReactJS) is an **open-source front-end JavaScript library** that is used for building composable user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps based on components in a declarative approach.
+   The arguments is an object which is local to a function. You can think of it as a local variable that is available with all functions by default except arrow functions in JavaScript. 
 
-    React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+   This object (arguments) is used to access the parameter passed to a function. It is only available within a function. We can’t access it outside the function. Arguments object allow you to access all of the 
+   arguments that are passed to a function. We can access these arguments using indexes.
+   
+   ![image](https://github.com/user-attachments/assets/7c0ab822-0790-4ae3-aa7e-845900e442e3)
 
     **[⬆ Back to Top](#table-of-contents)**
 
