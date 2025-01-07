@@ -17,7 +17,6 @@ Hide/Show table of contents
 
 
 
-## Core React
 
 1.  ### What is arguments in JavaScript?
 
